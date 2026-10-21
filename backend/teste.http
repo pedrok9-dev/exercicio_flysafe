@@ -1,0 +1,22 @@
+### teste cadastrar
+
+POST http://localhost:3000/cliente 
+Content-Type: application/json
+
+{
+    "nome": "pedro",
+    "email": "pedro@gmail.com",
+    "senha": "abc",
+    "cpf": "11122233344",
+    "telefone": "47911112222"
+}
+
+### teste login
+# @name loginReq
+POST http://localhost:3000/login 
+Content-Type: application/json
+
+{
+    "email": "pedro@gmail.com",
+    "senha": "abc"
+}
